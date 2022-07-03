@@ -1,0 +1,10 @@
+SIL
+SIL_B
+SIL_E
+SIL_I
+SIL_S
+<oov>
+<oov>_B
+<oov>_E
+<oov>_I
+<oov>_S

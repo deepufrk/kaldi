@@ -1,4 +1,4 @@
- 
+<oov> <oov> 
 0 Z IH1 R OW
 01 W AH1 N
 014 F AO1 R T IY1 N
