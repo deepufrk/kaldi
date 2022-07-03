@@ -7,6 +7,10 @@ sep = " "
 # Reading df with audio end time
 df = pd.read_csv("val_with_end_audio.csv")
 
+# Create text file
+text_df = df[["wav_filename", "transcript"]]
+text_df.to_csv("data/train/text", sep=" ", index=False, header=False)
+
 # Create segments file
 segments_df = df[["wav_filename", "wav_filename", "start_time", "end_time"]]
 segments_df.to_csv("data/train/segments", sep=sep, index=False, header=False)
