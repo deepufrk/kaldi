@@ -3,5 +3,5 @@
 # ‘:q!’ to quit forcibly (without saving)
 
 # Insert the following text in cmd.sh
-train_cmd="queue.pl"
-decode_cmd="queue.pl  --mem 2G"
+train_cmd="run.pl"
+decode_cmd="run.pl  --mem 2G"
